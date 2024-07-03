@@ -20,8 +20,5 @@ packages = ["{{cookiecutter.project_name}}"]
 [tool.setuptools.dynamic]
 dependencies = {file = ["requirements.txt"]}
 
-[tool.setuptools.dynamic.optional-dependencies]
-dev = {file = ['requirements_dev.txt']}
-
 [tool.ruff]
 line-length = 120
